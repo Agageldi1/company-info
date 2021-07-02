@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>Gulp</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="header__container">
+          <div class="header__top">
+            <div class="header__top-container container1">
+              <div class="row">
+                <div
+                  class="
+                    header__top-title
+                    col-md-6 col-sm-12
+                    d-flex
+                    align-items-center
+                  "
+                >
+                  custom care:888-23-4567
+                </div>
+                <div
+                  class="
+                    header__top-subtitle
+                    col-md-6
+                    align-items-center
+                    col-sm-12
+                  "
+                >
+                  <div class="header__top-cost pe-3 ps-2 pt-1 pb-1">
+                    <select name="Money" id="header__bottom-cost">
+                      <option value="Dollar">$US</option>
+                      <option value="Rubl">₽RU</option>
+                      <option value="Euro">£EU</option>
+                    </select>
+                  </div>
+                  <div class="header__top-account ps-4 pe-2 text-light">
+                    MY ACCOUNT
+                  </div>
+                  <div class="header__top-search pt-1 pb-2 pe-3 ps-3">
+                    <img src="img/icons/search.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__bottom">
+            <div class="header__bottom-container container1">
+              <div class="row d-flex align-items-center">
+                <div class="header__bottom-menu col-md-8 col-sm-12">
+                  <nav
+                    class="navbar navbar-expand-md navbar-light bg-transparent"
+                  >
+                    <div class="container-fluid row">
+                      <div class="col-md-4 col-xs-12">
+                        <div class="header__bottom-logo">
+                          <div class="header__bottom-logo2 pb-3 pt-3" href="#">
+                            L<img src="img/icons/Shape 1.png" alt="" />KSHOP
+                          </div>
+                          <a class="header__bottom-logo1 navbar-brand" href="#"
+                            ><img src="img/icons/logo.png" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                      <div
+                        class="
+                          header__bottom-menu1
+                          col-md-10 col-xs-12
+                          d-flex
+                          justify-content-end
+                          pt-2
+                          pb-2
+                          pe-4
+                          ps-4
+                        "
+                      >
+                        <div
+                          class="collapse navbar-collapse"
+                          id="navbarSupportedContent"
+                        >
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >New</a
+                              >
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="therd_page.html">Designers</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="second_page.html"
+                                >women</a
+                              >
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">men</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">clearence</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="header__bottom-btn">
+                          <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                          >
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <div class="header__bottom-purchases col-md-4 col-sm-12 mt-4">
+                  <div class="header__bottom-card">
+                    <select name="card" id="header__bottom-card">
+                      <option value="Your card">Your card</option>
+                      <option value="Central Bank">Central Bank</option>
+                      <option value="Open Bank">Open Bank</option>
+                    </select>
+                  </div>
+                  <div class="header__bottom-info d-flex align-items-center">
+                    <div class="col-6 ms-2">
+                      <img src="img/icons/Vector Smart Object.svg.png" alt="" />
+                    </div>
+                    <div class="header__bottom-title col-6">0 items | $ 0</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="slaider mt-5 container">
+        <div class="image__slider swiper-container">
+          <div class="image__slider-container swiper-wrapper">
+            <div class="image__slider-slide swiper-slide">
+              <div class="image__slider-image">
+                <div class="image__slider-title">Crazy</div>
+                <div class="image__slider-subtitle">
+                  <img src="img/slayder/Layer 31.png" alt="" />
+                </div>
+                <div class="image__slider-label">woman collection</div>
+                <button
+                  class="image__slider-btn btn"
+                  style="background: #fd926d"
+                >
+                  SHOP NOW
+                </button>
+              </div>
+            </div>
+            <div class="image__slider-slide swiper-slide">
+              <div class="image__slider-image">
+                <div class="image__slider-title">Crazy</div>
+                <div class="image__slider-subtitle">
+                  <img src="img/slayder/Layer 31.png" alt="" />
+                </div>
+                <div class="image__slider-label">woman collection</div>
+                <button
+                  class="image__slider-btn btn"
+                  style="background: #fd926d"
+                >
+                  SHOP NOW
+                </button>
+              </div>
+            </div>
+            <div class="image__slider-slide swiper-slide">
+              <div class="image__slider-image">
+                <div class="image__slider-title">Crazy</div>
+                <div class="image__slider-subtitle">
+                  <img src="img/slayder/Layer 31.png" alt="" />
+                </div>
+                <div class="image__slider-label">woman collection</div>
+                <button
+                  class="image__slider-btn btn"
+                  style="background: #fd926d"
+                >
+                  SHOP NOW
+                </button>
+              </div>
+            </div>
+            <div class="image__slider-slide swiper-slide">
+              <div class="image__slider-image">
+                <div class="image__slider-title">Crazy</div>
+                <div class="image__slider-subtitle">
+                  <img src="img/slayder/Layer 31.png" alt="" />
+                </div>
+                <div class="image__slider-label">woman collection</div>
+                <button
+                  class="image__slider-btn btn"
+                  style="background: #fd926d"
+                >
+                  SHOP NOW
+                </button>
+              </div>
+            </div>
+            <div class="image__slider-slide swiper-slide">
+              <div class="image__slider-image">
+                <div class="image__slider-title">Crazy</div>
+                <div class="image__slider-subtitle">
+                  <img src="img/slayder/Layer 31.png" alt="" />
+                </div>
+                <div class="image__slider-label">woman collection</div>
+                <button
+                  class="image__slider-btn btn"
+                  style="background: #fd926d"
+                >
+                  SHOP NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+      <section class="find mt-5" style="background: #ededed">
+        <div class="find__container container1">
+          <div class="row">
+            <form class="find__info col-md-6 col-sm-12">
+              <div class="find__title me-2">Stay updated</div>
+              <input class="find__register" type="text" />
+              <button class="btn btn-warning text-center">
+                <img src="img/icons/plus.png" alt="" />
+              </button>
+            </form>
+            <div class="find__contact col-md-6 col-sm-12">
+              <div class="find__label me-2">Find us here</div>
+              <div class="find__logos d-flex">
+                <div class="find__logo px-4 py-3 bg-light">
+                  <img src="img/icons/logo_1.png" alt="" />
+                </div>
+                <div class="find__logo px-4 py-3" style="background: #ededed">
+                  <img src="img/icons/logo_2.png" alt="" />
+                </div>
+                <div class="find__logo px-4 py-3 bg-light">
+                  <img src="img/icons/logo_3.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="items mt-5">
+        <div class="items__container container1">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <img src="img/page__item/layers.png" alt="" />
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="items__block d-flex flex-column">
+                <div class="items__item">
+                  <img src="img/page__item/layers (1).png" alt="" />
+                </div>
+                <div class="items__item row">
+                  <div class="col-6">
+                    <img src="img/page__item/layers (2).png" alt="" />
+                  </div>
+                  <div class="col-6">
+                    <img src="img/page__item/layers (3).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="collection d-flex flex-column align-items-center">
+        <div class="collection__top container row mt-5">
+          <div class="collection__filter col-md-6 d-flex">
+            <div
+              data-filter="1"
+              class="collection__filter-item active px-3 py-3"
+            >
+              Hot
+            </div>
+            <div data-filter="2" class="collection__filter-item px-3 py-3">
+              Designers
+            </div>
+            <div data-filter="3" class="collection__filter-item px-3 py-3">
+              Featured
+            </div>
+            <div data-filter="4" class="collection__filter-item px-3 py-3">
+              Latest
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end slider__buttons">
+            <button class="btn__prev">Prev</button>
+            <button class="btn__next">Next</button>
+          </div>
+        </div>
+        <div class="collection__container-color" style="background: #fd926d">
+          <div class="collection__container container pt-4 pb-4 mx-auto">
+            <div class="collection__track container">
+              <div class="collection__item f-1">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-2">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-2">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-1">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-2">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-1">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-2">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-2">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-1">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-2">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-1">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-2">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-2">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-1">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-2">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya_3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="collection__item f-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/collection/platya.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body text-center"
+                    style="background: #f7f7f7"
+                  >
+                    <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                    <p class="card-text text-center">$76.95</p>
+                    <a href="#" class="btn" style="background: #fd926d"
+                      >Add to cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="discount pt-5">
+        <div class="discount__container container text-center">
+          <div class="discount__block pt-5 pb-5 mb-5">
+            <div class="discount__inlineblock text-center">
+              <div class="discount__title pt-4">
+                <img src="img/discount/clearance.png" alt="" />
+              </div>
+              <div
+                class="discount__subtitle pb-4 d-flex justify-content-center"
+              >
+                <div class=""><img src="img/discount/50.png" alt="" /></div>
+                <div><img src="img/discount/%.png" alt="" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="discount__items d-flex justify-content-center">
+            <div class="discount__item me-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/collection/platya_3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center" style="background: #f7f7f7">
+                  <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                  <p class="card-text text-center">$76.95</p>
+                  <a href="#" class="btn" style="background: #fd926d"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="discount__item last-last-last me-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/collection/platya_3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center" style="background: #f7f7f7">
+                  <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                  <p class="card-text text-center">$76.95</p>
+                  <a href="#" class="btn" style="background: #fd926d"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="discount__item last-last me-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/collection/platya_3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center" style="background: #f7f7f7">
+                  <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                  <p class="card-text text-center">$76.95</p>
+                  <a href="#" class="btn" style="background: #fd926d"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="discount__item last me-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/collection/platya_3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center" style="background: #f7f7f7">
+                  <h5 class="card-title">MIMOSA LACE DRESS</h5>
+                  <p class="card-text text-center">$76.95</p>
+                  <a href="#" class="btn" style="background: #fd926d"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="brands">
+        <div class="brands__container container1">
+          <div class="brands__title text-center">Favourite brands</div>
+          <div class="brands__logos d-flex pt-4 pb-2 mb-2">
+            <div class="brands__logo mx-3">
+              <img src="img/help/brends/images/logo_1.png" alt="" />
+            </div>
+            <div class="brands__logo mx-3">
+              <img src="img/help/brends/images/logo_2.png" alt="" />
+            </div>
+            <div class="brands__logo mx-3">
+              <img src="img/help/brends/images/logo_3.png" alt="" />
+            </div>
+            <div class="brands__logo mx-3">
+              <img src="img/help/brends/images/logo_4.png" alt="" />
+            </div>
+            <div class="brands__logo mx-3">
+              <img src="img/help/brends/images/logo_5.png" alt="" />
+            </div>
+            <div class="brands__logo mx-3">
+              <img src="img/help/brends/images/logo_6.png" alt="" />
+            </div>
+            <div class="brands__logo mx-3">
+              <img src="img/help/brends/images/logo_7.png" alt="" />
+            </div>
+            <div class="brands__logo mx-3">
+              <img src="img/help/brends/images/logo_8.png" alt="" />
+            </div>
+          </div>
+          <div class="brands__about text-center">
+            <div class="brands__about-title pt-2 pb-3">About LookShop</div>
+            <div class="brands__about-subtitle pb-3">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+              velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+              auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+              Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor
+              a ornare odio. Sed non mauris vitae erat consequat auctor eu in
+              elit. Class aptent taciti sociosqu ad litora torquent per conubia
+              nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac
+              urna eu felis dapibus condimentum sit amet a augue.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cards" style="background: #f7f7f7">
+        <div
+          class="
+            cards__container
+            container1
+            d-flex
+            justify-content-center
+            align-items-center
+            pt-4
+            pb-4
+          "
+        >
+          <div class="cards__title me-3">We accept</div>
+          <div class="card__image">
+            <img src="img/help/brends/images/carts.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="security" style="background: #ededed">
+        <div class="security__container container1 d-flex">
+          <div class="security__item me-5 pt-5">
+            <div class="security__title">Customer Service</div>
+            <div class="security__subtitle">
+              <li>Contact</li>
+              <li>FAQ</li>
+              <li>Terms of payment</li>
+              <li>Terms of sale</li>
+              <li>Delivery terms and conditions</li>
+              <li>Returns and Refunds</li>
+            </div>
+          </div>
+          <div class="security__item me-5 pt-5">
+            <div class="security__title">Information</div>
+            <div class="security__subtitle">
+              <li>Affiliate</li>
+              <li>Cookies</li>
+              <li>How to Shop</li>
+              <li>About Nelly</li>
+              <li>Investor relations</li>
+            </div>
+          </div>
+          <div class="security__item me-5 pt-5">
+            <div class="security__title">Campaigns</div>
+            <div class="security__subtitle">
+              <li>Evening dresses</li>
+              <li>Makeup</li>
+              <li>Fashion forward</li>
+              <li>training clothes</li>
+              <li>Special Occasion Dresses</li>
+            </div>
+          </div>
+          <div class="security__item me-5 pt-5">
+            <div class="security__title">Stores</div>
+            <div class="security__subtitle">
+              <li>Paris</li>
+              <li>New York</li>
+              <li>London</li>
+              <li>Madrid</li>
+              <li>Tokio</li>
+            </div>
+          </div>
+          <div class="security__item me-5 pt-5">
+            <div class="security__title">Social</div>
+            <div class="security__logos">
+              <div class="security__logo">
+                <img src="img/help/images/vector_smart_object_835.png" alt="" />
+              </div>
+              <div class="security__logo">
+                <img src="img/help/images/vector_smart_object_837.png" alt="" />
+              </div>
+              <div class="security__logo">
+                <img src="img/help/images/vector_smart_object_839.png" alt="" />
+              </div>
+              <div class="security__logo">
+                <img src="img/help/images/vector_smart_object_841.png" alt="" />
+              </div>
+              <div class="security__logo">
+                <img src="img/help/images/vector_smart_object_843.png" alt="" />
+              </div>
+              <div class="security__logo">
+                <img src="img/help/images/vector_smart_object_845.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer pt-3 pb-3" style="background: #000">
+        <div
+          class="
+            footer__container
+            container1
+            d-flex
+            justify-content-between
+            flex-wrap
+          "
+        >
+          <div class="footer__title mb-2">
+            Privacy & Cookies | Terms & Conditions | Accessibility | Store
+            Directory | About Us
+          </div>
+          <div class="footer__Subtitle">© LookShop.com All Rights Reserved</div>
+        </div>
+      </footer>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"
+      ></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="js/script.js"></script>
+    </div>
+  </body>
+</html>
